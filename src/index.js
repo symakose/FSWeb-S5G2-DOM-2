@@ -85,3 +85,19 @@ function handleResize() {
 }
 window.addEventListener("resize", handleResize);
 handleResize();
+
+//const draggable = documen.querySelector(".img-fluid rounded");
+//let draggingElement = null;
+//function dragStartHandler(event) {
+//draggingElement = event.target;
+//event.dataTransfer.setData("text/plain", "");
+//}
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".nav-link");
+  links.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.location.href = "https://www.example.com";
+    });
+  });
+});
