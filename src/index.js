@@ -86,7 +86,7 @@ function handleResize() {
 window.addEventListener("resize", handleResize);
 handleResize();
 
-//const draggable = documen.querySelector(".img-fluid rounded");
+//const draggable = document.querySelector(".img-fluid rounded");
 //let draggingElement = null;
 //function dragStartHandler(event) {
 //draggingElement = event.target;
